@@ -1,0 +1,24 @@
+.nav-con{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    /* border-bottom: 1px solid black; */
+    font-weight: 600;
+}
+.nav-img{
+    height: 35px;
+    width: 35px;
+}
+@media only screen and (max-width: 600px) {
+    .nav-con{
+       
+        padding-left: 10px;
+        padding-right: 10px;
+   
+    }
+  }
